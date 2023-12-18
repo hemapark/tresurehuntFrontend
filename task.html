@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt Task</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="displayTeamID"></h1>
+        <div id="error-alert"></div>
+        <div id="question"></div>
+        <form id="submitAnswerForm">
+            <label for="inputAnswer">Answer:</label>
+            <input type="text" id="inputAnswer" name="inputAnswer" required>
+
+            <button type="button" onclick="submitAnswer()">SUBMIT</button>
+        </form>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="result.js"></script>
+</body>
+
+</html>
