@@ -1,4 +1,4 @@
-const api = "https://d1d7-2405-201-d-40a9-8e41-bb75-6c7b-1d6e.ngrok-free.app"
+const api = "https://740f-2409-40c0-104c-ef28-4e41-df44-1a88-1ccd.ngrok-free.app"
 
 function login(){
     const teamId = document.getElementById('teamId').value;
